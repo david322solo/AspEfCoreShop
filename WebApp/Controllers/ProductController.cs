@@ -16,7 +16,7 @@ namespace WebApp.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private UndefinedContext _db;
-        private int PageSize = 15;
+        private int PageSize = 12;
         public ProductController(ILogger<HomeController> logger,UndefinedContext db)
         {
             _logger = logger;
