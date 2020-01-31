@@ -1,0 +1,17 @@
+﻿<div class="agileinfo-ads-display col-lg-9">
+    <div class="wrapper">
+        <!-- first section -->
+        @foreach (var product in Model.products)
+        {
+            <div class="product-sec1 px-sm-4 px-3 py-sm-5  py-3 mt-4">
+                <div class="row">
+                    @foreach(var prod in product)
+                    {
+                        await Html.RenderPartialAsync("ProductSummary", (EFDataLibrary.Models.Product)prod);
+                    }
+                </div>
+            </div>
+            }
+            <!-- //first section -->
+        </div>
+</div>

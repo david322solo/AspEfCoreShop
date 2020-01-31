@@ -1,0 +1,602 @@
+[
+  {
+    "Price": 2755.62,
+    "Category": "cameras",
+    "Name": "Peticular",
+    "Description": "Minim voluptate pariatur commodo Lorem incididunt anim. In minim veniam Lorem aute reprehenderit fugiat consequat voluptate duis. Sunt velit tempor aute sit elit est id aliqua enim sunt sit anim qui magna. Pariatur exercitation culpa cillum irure ad non ut elit aliqua. Et Lorem consequat laboris laborum tempor.\r\n"
+  },
+  {
+    "Price": 3626.63,
+    "Category": "phone",
+    "Name": "Digitalus",
+    "Description": "Qui sit irure cupidatat non tempor est esse commodo laboris magna consectetur. Adipisicing mollit cillum pariatur nulla proident ut enim et consequat irure voluptate. Ad labore sit dolor nostrud esse laboris enim. Veniam sint ex deserunt esse velit aliquip qui dolore.\r\n"
+  },
+  {
+    "Price": 1161.08,
+    "Category": "tablets",
+    "Name": "Pearlesex",
+    "Description": "Amet excepteur velit veniam incididunt mollit ullamco pariatur tempor aute est in est dolor. Culpa voluptate minim velit anim esse nulla cillum nisi consequat dolore eu laborum ea. Qui id aute sint tempor ut pariatur nulla veniam Lorem anim do Lorem ad ut. Incididunt voluptate esse aute ad consequat cupidatat irure laboris consectetur est. Sit deserunt ut proident voluptate ut eiusmod proident ipsum.\r\n"
+  },
+  {
+    "Price": 1446.12,
+    "Category": "cameras",
+    "Name": "Magnemo",
+    "Description": "Laboris id fugiat ad commodo id duis minim nostrud id ullamco. Dolor ex pariatur nostrud velit velit consectetur cillum minim Lorem occaecat irure fugiat cupidatat laborum. Ad aute tempor excepteur ipsum proident. Enim ad nulla ipsum pariatur mollit ea ullamco elit excepteur. Occaecat irure velit labore dolore nostrud minim reprehenderit enim. Irure ea nostrud culpa ullamco eu excepteur Lorem laborum velit consequat deserunt sit Lorem.\r\n"
+  },
+  {
+    "Price": 3085.92,
+    "Category": "cameras",
+    "Name": "Zillacom",
+    "Description": "Consequat quis tempor in eiusmod ex labore quis cupidatat. Veniam ipsum veniam reprehenderit mollit sint occaecat qui qui est adipisicing quis minim. Cillum veniam tempor nulla esse incididunt proident.\r\n"
+  },
+  {
+    "Price": 2510.39,
+    "Category": "tablets",
+    "Name": "Zentia",
+    "Description": "Reprehenderit tempor aliqua aliquip id laboris ex irure voluptate eiusmod sunt deserunt enim esse ex. Duis irure dolor consequat labore nisi et anim anim elit elit mollit cillum proident esse. Officia ut in irure officia reprehenderit. Laborum qui elit dolor aute eiusmod cillum. Ut minim consectetur ea velit sit voluptate non tempor est ut quis ullamco cillum cillum. Aliqua minim eiusmod sit consequat sint officia deserunt nisi mollit. Cillum elit dolore magna adipisicing.\r\n"
+  },
+  {
+    "Price": 1350.14,
+    "Category": "computers",
+    "Name": "Suremax",
+    "Description": "Laboris irure non pariatur non ipsum tempor est. In id consectetur minim minim magna mollit. Dolore elit excepteur non ea nostrud adipisicing ipsum. Occaecat commodo aliqua fugiat do deserunt ea sit occaecat ea fugiat mollit velit magna. In veniam deserunt consectetur id id.\r\n"
+  },
+  {
+    "Price": 3595.49,
+    "Category": "phone",
+    "Name": "Lunchpod",
+    "Description": "Reprehenderit sit aute laboris incididunt do exercitation exercitation. Incididunt nisi commodo in velit labore Lorem do magna officia. Pariatur nostrud non mollit nulla occaecat velit aliqua non mollit minim. Eu labore do non laborum laboris ipsum minim veniam nisi nostrud veniam. Deserunt adipisicing anim Lorem consequat mollit.\r\n"
+  },
+  {
+    "Price": 1119.92,
+    "Category": "tablets",
+    "Name": "Zappix",
+    "Description": "Id dolor consequat magna ut sit mollit laboris fugiat pariatur. Deserunt mollit anim ad nostrud ullamco adipisicing duis id. Dolore velit anim sunt veniam do anim amet in voluptate reprehenderit minim veniam.\r\n"
+  },
+  {
+    "Price": 3462.53,
+    "Category": "laptops",
+    "Name": "Medifax",
+    "Description": "Lorem laboris anim dolore veniam elit veniam. Anim irure ex sunt aute. Adipisicing do officia in pariatur minim reprehenderit enim irure nulla dolore laboris dolor consectetur. Deserunt consectetur Lorem culpa enim excepteur sit aute aute velit qui. Aute veniam laboris ea excepteur ipsum laborum velit sint nulla esse ut excepteur voluptate pariatur. Est velit ea eu ut aliquip consectetur. Commodo dolore laboris ullamco anim ut qui dolore aliquip aliquip pariatur do esse ex.\r\n"
+  },
+  {
+    "Price": 1957.38,
+    "Category": "computers",
+    "Name": "Farmex",
+    "Description": "Ad commodo sint consequat voluptate ut nulla aliqua. Id et proident ad magna enim consectetur non duis mollit ipsum aliquip anim. Est amet anim ut eu cillum deserunt adipisicing nulla veniam reprehenderit ullamco eu elit.\r\n"
+  },
+  {
+    "Price": 2154.88,
+    "Category": "phone",
+    "Name": "Cosmosis",
+    "Description": "Do nostrud et veniam deserunt duis esse consectetur excepteur enim sunt cillum sit do. Nulla ut magna excepteur minim aute fugiat consequat cupidatat ex minim velit laborum. Voluptate sunt est exercitation ut deserunt anim nostrud reprehenderit. Id nostrud sit aliqua ut duis sint sunt excepteur laboris. Nulla consequat aliqua culpa velit sint veniam ea commodo aute. Consequat anim minim sunt ea sunt sint qui.\r\n"
+  },
+  {
+    "Price": 2327.7,
+    "Category": "cameras",
+    "Name": "Zosis",
+    "Description": "Irure aute fugiat dolor ea et ipsum nulla tempor dolor minim. Ad cupidatat sunt nostrud anim consectetur esse qui ipsum excepteur esse id. Laborum laboris elit quis officia amet non officia ut cillum amet eiusmod voluptate.\r\n"
+  },
+  {
+    "Price": 2203.44,
+    "Category": "cameras",
+    "Name": "Lyrichord",
+    "Description": "Duis cupidatat dolor minim nisi. Dolore aliqua laboris exercitation culpa exercitation do magna consequat sit qui. Dolore aliquip elit dolore commodo occaecat minim consectetur ea esse sunt cillum reprehenderit. Dolore laboris velit non quis excepteur ut elit officia cupidatat minim amet amet. Velit est cupidatat aute commodo sint incididunt dolor. Sit fugiat magna ea exercitation eiusmod consequat mollit aute adipisicing.\r\n"
+  },
+  {
+    "Price": 3655.5,
+    "Category": "phone",
+    "Name": "Ontality",
+    "Description": "Est nisi ipsum do aliqua minim ex magna eiusmod ut proident Lorem eu. Ullamco ex labore proident nulla elit irure sint incididunt do cillum laboris consectetur fugiat amet. Lorem dolore et cupidatat commodo sunt sit fugiat. Reprehenderit aute nostrud minim sit nostrud nostrud. Veniam exercitation eu deserunt proident consequat magna cillum pariatur excepteur et aliqua labore in. Est cupidatat dolor do sit laboris ex.\r\n"
+  },
+  {
+    "Price": 1468.42,
+    "Category": "computers",
+    "Name": "Multiflex",
+    "Description": "Occaecat non aliqua amet esse dolor dolore commodo nostrud nisi et. Sit nostrud reprehenderit sunt adipisicing fugiat ad aute magna aliqua ut ea. Non nisi eiusmod minim magna ipsum qui cupidatat non exercitation reprehenderit esse. Labore fugiat esse voluptate enim cillum cillum excepteur eu dolore ex mollit ad est Lorem.\r\n"
+  },
+  {
+    "Price": 1231.35,
+    "Category": "phone",
+    "Name": "Entality",
+    "Description": "Eu aliquip qui sint consequat quis sint consequat laboris ut laboris. Ex officia aliquip ex elit ipsum nulla do consectetur. Id nulla est laboris minim cillum veniam in reprehenderit eu. Nisi laborum voluptate consequat velit excepteur labore ea excepteur do ut. Eiusmod minim do ipsum amet velit ad elit.\r\n"
+  },
+  {
+    "Price": 3811.9,
+    "Category": "laptops",
+    "Name": "Isoternia",
+    "Description": "Commodo deserunt sunt cillum excepteur. Reprehenderit et amet esse aute in. Id tempor aliqua minim excepteur in et in aute esse. Quis ipsum nostrud velit non commodo. Qui pariatur nulla tempor dolore pariatur aliquip nostrud.\r\n"
+  },
+  {
+    "Price": 3823.47,
+    "Category": "computers",
+    "Name": "Eventage",
+    "Description": "Et ex culpa pariatur enim dolor adipisicing aliqua irure veniam labore cupidatat ut cupidatat. Ea veniam sunt sunt pariatur labore proident et exercitation officia elit dolore cupidatat ipsum fugiat. Occaecat et occaecat sint pariatur tempor id est. Do cillum aliquip sunt ex occaecat cillum nostrud aliqua do non elit voluptate ullamco. Mollit exercitation velit exercitation voluptate exercitation exercitation ea id nostrud sint ullamco deserunt ad ea. Lorem enim duis qui dolor. Ex officia nostrud duis pariatur qui veniam.\r\n"
+  },
+  {
+    "Price": 2725.32,
+    "Category": "laptops",
+    "Name": "Blanet",
+    "Description": "Lorem mollit anim reprehenderit anim do nostrud sint culpa. Laboris non aliqua ipsum sit velit qui voluptate velit dolore quis esse. Tempor irure laboris ut est cupidatat laboris labore fugiat. Do occaecat amet ullamco sint aute. Ex sint labore anim id.\r\n"
+  },
+  {
+    "Price": 1578.31,
+    "Category": "cameras",
+    "Name": "Conferia",
+    "Description": "Pariatur aliquip do ut est ex aliquip non irure et elit. Eiusmod non et nostrud mollit eu culpa do culpa in consequat ut Lorem magna incididunt. Occaecat ipsum elit veniam non quis. Dolor cupidatat qui pariatur irure eiusmod ea sit ipsum ut pariatur. Aliqua fugiat do elit qui cupidatat quis tempor officia. Eiusmod eu incididunt anim ut nisi.\r\n"
+  },
+  {
+    "Price": 3353.67,
+    "Category": "tablets",
+    "Name": "Quarx",
+    "Description": "Deserunt eiusmod elit mollit aliquip enim occaecat culpa exercitation est. Laborum culpa ea nostrud nisi non. Aliquip non eiusmod irure eiusmod cupidatat consectetur ex exercitation proident consectetur aute velit exercitation. Sunt deserunt minim nulla exercitation sunt qui reprehenderit non veniam nulla sunt est nostrud et.\r\n"
+  },
+  {
+    "Price": 2134.78,
+    "Category": "phone",
+    "Name": "Imperium",
+    "Description": "Exercitation velit commodo culpa non ullamco dolor commodo. Adipisicing ut occaecat laboris magna. In consequat ut ipsum laborum sunt ea anim qui veniam duis magna enim dolor. Eu dolor exercitation ea tempor minim. Proident non nulla do culpa culpa.\r\n"
+  },
+  {
+    "Price": 1479.02,
+    "Category": "computers",
+    "Name": "Paprikut",
+    "Description": "Dolore commodo officia eu sint magna tempor tempor anim ex amet culpa quis. Nostrud ad fugiat ipsum aute laboris sit labore irure minim pariatur adipisicing laboris id officia. Esse occaecat cillum dolor quis ad cillum id sunt. Do ea eu exercitation laborum consectetur ad amet proident duis voluptate sunt eiusmod veniam in. Aliquip voluptate ullamco occaecat eiusmod est sunt labore nostrud nulla qui et aute tempor et. Aliquip sunt aliquip cillum aliquip cupidatat nulla. Mollit proident culpa reprehenderit anim ea.\r\n"
+  },
+  {
+    "Price": 3700.7,
+    "Category": "computers",
+    "Name": "Unq",
+    "Description": "Sit occaecat ea velit mollit non eiusmod consequat. Nisi in nisi ex et aliquip occaecat ipsum. Non eu amet esse et veniam elit esse do veniam consectetur consectetur Lorem. Aute eiusmod excepteur esse nisi commodo consectetur fugiat eiusmod enim. Ex nostrud ad aute duis enim deserunt ipsum enim mollit cupidatat magna deserunt.\r\n"
+  },
+  {
+    "Price": 3092.46,
+    "Category": "cameras",
+    "Name": "Quantasis",
+    "Description": "Reprehenderit reprehenderit magna et irure ullamco ad incididunt ea minim magna voluptate ut anim ea. Proident minim fugiat labore veniam culpa aute tempor laborum nostrud mollit eu deserunt Lorem. Proident id sit commodo aliqua magna sunt. Ut minim cillum pariatur reprehenderit tempor ipsum excepteur. Ea ad aliquip pariatur elit.\r\n"
+  },
+  {
+    "Price": 1158.94,
+    "Category": "phone",
+    "Name": "Cuizine",
+    "Description": "Officia incididunt sunt mollit adipisicing. Qui mollit ut cupidatat ullamco proident deserunt exercitation voluptate. Nostrud duis magna in dolore nisi esse excepteur. Pariatur aliquip reprehenderit fugiat ex. Et consectetur quis reprehenderit in labore non commodo amet incididunt aliquip.\r\n"
+  },
+  {
+    "Price": 2510.07,
+    "Category": "tablets",
+    "Name": "Pyrami",
+    "Description": "Id ea commodo velit amet ea exercitation in sit ad. Elit deserunt qui qui cupidatat aliquip do ullamco ea dolor Lorem ullamco minim. Minim labore non et pariatur sunt ea ut dolore commodo exercitation deserunt. Sunt incididunt esse velit sunt cillum tempor tempor culpa adipisicing culpa aute do proident consequat. Irure cillum qui in fugiat consectetur pariatur mollit.\r\n"
+  },
+  {
+    "Price": 3439.63,
+    "Category": "tablets",
+    "Name": "Nixelt",
+    "Description": "Fugiat in cupidatat nulla dolore nostrud voluptate fugiat excepteur dolor ad. Fugiat sunt anim laborum sint excepteur sint nostrud sit aute tempor. Mollit labore consequat laborum excepteur commodo.\r\n"
+  },
+  {
+    "Price": 3638.92,
+    "Category": "phone",
+    "Name": "Updat",
+    "Description": "Proident anim proident proident ipsum consequat incididunt velit incididunt qui esse cillum cillum consequat. Veniam sit aliqua qui ea velit laboris id ex non adipisicing reprehenderit occaecat anim. Voluptate anim nostrud ex adipisicing et ea anim ad. Reprehenderit irure exercitation nostrud ea aliquip irure commodo qui sint. Sit do laboris consequat id enim qui. Cupidatat ex elit velit tempor.\r\n"
+  },
+  {
+    "Price": 1720.28,
+    "Category": "phone",
+    "Name": "Martgo",
+    "Description": "Officia consectetur quis adipisicing ut sint enim quis amet exercitation enim sit esse cillum. Pariatur duis ea qui culpa in ad irure magna ad. Minim eiusmod reprehenderit cupidatat occaecat. Veniam nisi anim esse et ex. Ea nostrud occaecat id consectetur. Officia voluptate adipisicing elit sunt aliqua deserunt irure cillum eiusmod eiusmod nisi. Commodo minim eu eiusmod sint.\r\n"
+  },
+  {
+    "Price": 1309.59,
+    "Category": "phone",
+    "Name": "Zidox",
+    "Description": "Sunt proident amet dolor fugiat nulla reprehenderit mollit qui id fugiat tempor irure dolor. Voluptate esse sit officia incididunt cillum excepteur culpa. Proident aliqua tempor anim nulla mollit qui ex cupidatat. Nostrud mollit deserunt fugiat sint eu Lorem. Aliqua quis aute in ut elit aliquip tempor. Laboris ipsum deserunt cillum voluptate do consequat aliquip commodo veniam consectetur ad officia laborum anim.\r\n"
+  },
+  {
+    "Price": 3106.02,
+    "Category": "cameras",
+    "Name": "Temorak",
+    "Description": "Eiusmod aute quis eiusmod elit cupidatat sit commodo est consequat magna deserunt aute cillum nisi. Officia eiusmod aute ad ut fugiat enim duis proident aliquip. Lorem nisi occaecat dolore aliquip sint mollit adipisicing qui sit consectetur.\r\n"
+  },
+  {
+    "Price": 1089.12,
+    "Category": "computers",
+    "Name": "Uniworld",
+    "Description": "Commodo voluptate fugiat aliqua culpa labore irure ut tempor sunt sunt. Tempor fugiat magna labore sunt. Anim eiusmod Lorem velit duis ea ut commodo ea incididunt cillum dolore. Laborum eiusmod id sunt labore pariatur aute do. Tempor duis ipsum anim culpa in laboris est in ut. Voluptate labore cupidatat eiusmod anim amet dolore magna adipisicing sint eu in adipisicing deserunt. Ipsum magna ipsum dolor aliqua nostrud id commodo id ex ipsum.\r\n"
+  },
+  {
+    "Price": 3870.93,
+    "Category": "computers",
+    "Name": "Marketoid",
+    "Description": "Officia eu dolor ipsum velit in culpa esse esse cupidatat reprehenderit. Consequat commodo ipsum aliquip excepteur in nulla dolor est. Et sunt dolore anim sint fugiat ut non quis est anim consectetur occaecat incididunt pariatur.\r\n"
+  },
+  {
+    "Price": 3542.5,
+    "Category": "laptops",
+    "Name": "Uncorp",
+    "Description": "Sint ut mollit est ad officia velit. Officia enim irure excepteur Lorem occaecat ad fugiat laboris consequat cillum anim ut in. Laborum aute ullamco adipisicing adipisicing cupidatat anim irure in quis labore labore qui laboris. Anim eiusmod dolor consequat cillum id ea duis irure. In laboris id sint cupidatat laboris non amet. Ut in proident tempor proident eu in proident.\r\n"
+  },
+  {
+    "Price": 3963.47,
+    "Category": "cameras",
+    "Name": "Handshake",
+    "Description": "Minim anim magna eiusmod cupidatat laborum ut. Do reprehenderit voluptate ullamco non. Labore magna nisi mollit cillum amet. Incididunt nostrud ullamco do aliquip eiusmod incididunt commodo cupidatat esse nulla nostrud esse dolore magna. Exercitation velit do est culpa sit velit id irure dolor.\r\n"
+  },
+  {
+    "Price": 3826.94,
+    "Category": "computers",
+    "Name": "Polarax",
+    "Description": "Consequat elit fugiat excepteur proident pariatur sit et. Ea dolor irure ullamco mollit dolore mollit officia dolor ut tempor qui. Pariatur nostrud aute nisi enim Lorem est. Sint ad elit tempor nisi incididunt ad sint irure minim sit sint sint. Non do sint velit tempor fugiat. Eiusmod ipsum Lorem commodo amet excepteur consectetur incididunt proident esse consectetur dolore.\r\n"
+  },
+  {
+    "Price": 2467.36,
+    "Category": "phone",
+    "Name": "Ewaves",
+    "Description": "Eiusmod sunt magna officia irure nisi. Occaecat ullamco irure magna tempor minim aliquip. Cupidatat reprehenderit qui elit id qui anim exercitation anim cupidatat. Proident esse eu culpa minim proident eu qui ipsum nulla.\r\n"
+  },
+  {
+    "Price": 1915.57,
+    "Category": "tablets",
+    "Name": "Sultraxin",
+    "Description": "Laboris tempor esse in dolor. Id aliqua voluptate cillum adipisicing excepteur irure commodo consequat ex est sunt amet officia consequat. Proident cillum aliqua pariatur ipsum reprehenderit enim laborum. Nulla minim cupidatat laboris exercitation laboris voluptate qui non. Laboris laborum ullamco laboris est pariatur qui laboris eiusmod exercitation. Deserunt eiusmod aute ex voluptate nulla magna ex aliqua. Sint duis officia sit commodo do ad eu ex duis dolor consequat magna.\r\n"
+  },
+  {
+    "Price": 3315.31,
+    "Category": "computers",
+    "Name": "Zoarere",
+    "Description": "Consequat veniam in enim sint pariatur sunt aliquip sit non. Anim in labore commodo commodo. Fugiat cupidatat veniam mollit eiusmod consectetur anim consectetur proident do anim. Nisi mollit ad aliqua anim exercitation in cupidatat ullamco in consequat laboris.\r\n"
+  },
+  {
+    "Price": 3152.9,
+    "Category": "tablets",
+    "Name": "Centuria",
+    "Description": "Elit enim duis do irure cupidatat magna sit. Voluptate in ipsum incididunt aliqua excepteur. Veniam elit eiusmod ad voluptate amet ex veniam culpa aliquip non quis cillum. Adipisicing eiusmod consectetur dolore voluptate.\r\n"
+  },
+  {
+    "Price": 2420.48,
+    "Category": "computers",
+    "Name": "Snowpoke",
+    "Description": "Do culpa proident dolore velit. Quis est est minim Lorem voluptate laboris adipisicing laborum. Aliqua velit veniam dolore minim sint exercitation sunt. Est laboris deserunt ullamco aute culpa.\r\n"
+  },
+  {
+    "Price": 1378.1,
+    "Category": "laptops",
+    "Name": "Uxmox",
+    "Description": "Magna culpa irure labore mollit excepteur. Nisi dolore exercitation ea laborum mollit duis incididunt nulla labore consequat nostrud duis ut. Ea dolor ullamco labore reprehenderit ipsum quis aliquip dolor non reprehenderit. Esse tempor amet laborum voluptate mollit ipsum anim ipsum ad laboris. In est reprehenderit tempor amet laborum tempor est magna nulla cillum excepteur nostrud sunt voluptate.\r\n"
+  },
+  {
+    "Price": 1206.21,
+    "Category": "cameras",
+    "Name": "Noralex",
+    "Description": "Nostrud ex ut cupidatat ea amet et et ullamco nisi irure minim cupidatat cupidatat. Eiusmod enim nostrud anim laboris fugiat sunt ad occaecat. Aute adipisicing amet ad est. Fugiat cupidatat ad fugiat ad mollit commodo magna cupidatat non nisi. Laboris ea proident laboris dolore.\r\n"
+  },
+  {
+    "Price": 1383.77,
+    "Category": "cameras",
+    "Name": "Ginkogene",
+    "Description": "Mollit cillum deserunt ea nostrud proident dolore irure commodo excepteur voluptate ex eu ut. Amet excepteur nisi id tempor. Culpa tempor eu ad deserunt nostrud fugiat est dolore sint Lorem occaecat velit magna cupidatat. Proident et voluptate minim cillum veniam sint qui eu dolore pariatur occaecat proident. Eiusmod sunt qui ut laboris sint qui cupidatat ullamco exercitation proident. Laborum do ex Lorem Lorem ullamco ea mollit nisi culpa tempor. Exercitation in id quis do est.\r\n"
+  },
+  {
+    "Price": 1891.51,
+    "Category": "phone",
+    "Name": "Daido",
+    "Description": "Exercitation nisi reprehenderit amet id officia occaecat irure officia non eu amet nisi voluptate. Laboris exercitation tempor ea eiusmod anim labore reprehenderit velit tempor elit ex. Elit nostrud aute sint do nostrud reprehenderit eu culpa sit et cillum. Fugiat fugiat velit qui commodo Lorem voluptate laborum anim exercitation ipsum et sunt cillum. Et deserunt amet culpa id non sunt elit ad. Laboris minim dolore velit Lorem elit commodo est nulla deserunt dolor.\r\n"
+  },
+  {
+    "Price": 3730.97,
+    "Category": "laptops",
+    "Name": "Zilencio",
+    "Description": "Magna elit officia ea ex et. Aliqua eiusmod Lorem et velit fugiat sunt laboris irure magna ut aliquip commodo quis. Duis veniam labore ipsum do reprehenderit dolore veniam labore nulla et Lorem irure et. Nulla anim in quis laboris nulla. Magna et voluptate esse culpa mollit adipisicing. Pariatur quis eiusmod pariatur laborum culpa voluptate.\r\n"
+  },
+  {
+    "Price": 2459.76,
+    "Category": "phone",
+    "Name": "Entropix",
+    "Description": "Sunt pariatur incididunt ut duis. Aute incididunt occaecat anim ut amet. Eu voluptate elit duis aliquip cillum ex labore do dolore fugiat velit Lorem aliquip. Eu enim dolore eiusmod non aliquip consequat qui ex aute consequat. Deserunt incididunt est eiusmod nulla dolore. Id dolor est nulla reprehenderit labore minim aliquip proident sint laboris adipisicing incididunt deserunt.\r\n"
+  },
+  {
+    "Price": 1129.37,
+    "Category": "laptops",
+    "Name": "Kangle",
+    "Description": "Labore adipisicing labore nostrud officia occaecat. Aute aute do mollit eu culpa ullamco officia nostrud enim duis laborum do cupidatat. Nostrud fugiat nulla aliquip esse id ut culpa fugiat adipisicing. Nisi reprehenderit magna cupidatat quis pariatur. Nisi nulla cupidatat consequat Lorem magna qui nostrud ullamco esse eu excepteur tempor ipsum.\r\n"
+  },
+  {
+    "Price": 1459.37,
+    "Category": "cameras",
+    "Name": "Moreganic",
+    "Description": "Nulla fugiat fugiat consequat ipsum proident velit. Aliqua magna sit esse cillum adipisicing tempor sunt Lorem exercitation do culpa. Qui velit duis non id quis et id eiusmod. Enim excepteur commodo ea sunt aute. Aliquip exercitation nostrud laboris incididunt consequat ea non proident aliquip.\r\n"
+  },
+  {
+    "Price": 2316.15,
+    "Category": "cameras",
+    "Name": "Sportan",
+    "Description": "Do commodo deserunt mollit fugiat sit. Dolore in quis dolore ea irure aliqua in tempor consequat. Sunt et exercitation nisi minim occaecat ullamco dolore quis duis consequat. Sint sit reprehenderit qui commodo duis reprehenderit et exercitation ipsum laboris ea adipisicing.\r\n"
+  },
+  {
+    "Price": 3780.92,
+    "Category": "computers",
+    "Name": "Netropic",
+    "Description": "Veniam nostrud ipsum nostrud id aliqua magna. Et commodo est anim officia cupidatat sunt amet. Veniam ipsum quis dolor quis et adipisicing et incididunt ex. Nisi minim anim et eiusmod laboris esse pariatur laborum.\r\n"
+  },
+  {
+    "Price": 2857.11,
+    "Category": "cameras",
+    "Name": "Terragen",
+    "Description": "Deserunt excepteur magna incididunt tempor et cillum ullamco ut anim dolor nulla dolor incididunt. Velit fugiat eiusmod adipisicing incididunt exercitation nisi eiusmod. Reprehenderit dolore dolor esse voluptate exercitation est irure in elit ullamco ipsum fugiat eiusmod eu.\r\n"
+  },
+  {
+    "Price": 2621.94,
+    "Category": "tablets",
+    "Name": "Solaren",
+    "Description": "Mollit mollit sint aliquip esse ad reprehenderit aliqua. Exercitation consectetur sit exercitation in proident tempor ut. Elit do irure nisi duis laboris sit aute excepteur sint et minim ullamco commodo.\r\n"
+  },
+  {
+    "Price": 3811.18,
+    "Category": "tablets",
+    "Name": "Endipin",
+    "Description": "Proident ullamco enim pariatur tempor. Duis proident nulla excepteur laboris cupidatat aliqua. Qui sit ea sunt esse officia sit aliquip amet incididunt est exercitation. Enim velit magna anim aliquip irure laborum culpa velit ut occaecat anim amet.\r\n"
+  },
+  {
+    "Price": 1261.38,
+    "Category": "tablets",
+    "Name": "Quilm",
+    "Description": "Aliquip elit anim qui qui quis Lorem commodo eu tempor consectetur commodo ad. Pariatur laborum ullamco qui sint nostrud deserunt Lorem in pariatur fugiat velit dolore excepteur duis. Non ullamco excepteur laborum mollit fugiat ex ex est eiusmod ex. Proident sunt mollit dolor sunt. Excepteur reprehenderit exercitation aute esse exercitation nisi dolor officia tempor.\r\n"
+  },
+  {
+    "Price": 3792.37,
+    "Category": "tablets",
+    "Name": "Assistix",
+    "Description": "Dolor velit commodo qui culpa sit ut elit enim consectetur qui qui quis sit. Deserunt cupidatat culpa ea ea ipsum laboris minim laborum labore nisi nulla sunt labore aute. Id consequat veniam commodo id aute magna voluptate aliquip enim minim ipsum consectetur sint. Consectetur eu pariatur labore pariatur anim elit non ullamco magna proident exercitation. Laborum aliqua laboris et nulla culpa minim consectetur dolore officia sint incididunt. Magna magna do non eu reprehenderit non reprehenderit anim veniam eu cillum tempor. Minim irure nulla fugiat elit amet.\r\n"
+  },
+  {
+    "Price": 3253.62,
+    "Category": "computers",
+    "Name": "Locazone",
+    "Description": "Nisi aliquip labore nostrud aute ullamco sit voluptate do cupidatat mollit id nulla quis fugiat. Esse aliqua laborum adipisicing culpa nulla ad incididunt non ea velit. Laborum mollit in occaecat ad sit cillum amet. Officia duis nisi ipsum mollit culpa qui fugiat sit. Et exercitation eu aliquip proident aute eiusmod ad aliquip minim. Ut labore non magna occaecat id reprehenderit laboris proident sint officia laborum consequat.\r\n"
+  },
+  {
+    "Price": 3789.98,
+    "Category": "cameras",
+    "Name": "Marqet",
+    "Description": "Deserunt Lorem proident ullamco in. Exercitation consequat proident sint aliquip exercitation tempor aute eu. Esse dolor cillum commodo consectetur officia consectetur enim. Veniam amet officia qui laboris duis ut excepteur sit labore veniam sit. Non est id ullamco magna duis mollit adipisicing excepteur dolore duis ad. Aliqua nisi excepteur amet eiusmod sunt. Minim est nisi officia minim.\r\n"
+  },
+  {
+    "Price": 1140.12,
+    "Category": "phone",
+    "Name": "Telequiet",
+    "Description": "Culpa aute consequat esse fugiat. Deserunt excepteur consectetur aliqua elit nostrud laborum aliquip. Lorem labore fugiat minim eu dolor excepteur. Sit ad consequat exercitation aliquip occaecat elit deserunt proident ipsum duis adipisicing fugiat. Et ipsum deserunt laboris consectetur laboris.\r\n"
+  },
+  {
+    "Price": 2748.52,
+    "Category": "computers",
+    "Name": "Extremo",
+    "Description": "Magna magna minim occaecat culpa nulla exercitation mollit est cillum velit et. Consequat tempor dolor occaecat id exercitation velit labore culpa. Ullamco eu anim dolor dolore nostrud est eu officia anim duis enim ullamco ullamco.\r\n"
+  },
+  {
+    "Price": 2657.8,
+    "Category": "tablets",
+    "Name": "Tersanki",
+    "Description": "Ea aliquip nulla sint consectetur consequat et sint est. Culpa culpa proident velit Lorem enim eu irure sint in deserunt. Dolore aute mollit dolor non enim. Exercitation qui ex qui sint deserunt culpa in adipisicing elit consectetur aliqua nisi non adipisicing.\r\n"
+  },
+  {
+    "Price": 3687.76,
+    "Category": "tablets",
+    "Name": "Gaptec",
+    "Description": "Ullamco enim non magna non exercitation. Deserunt adipisicing sit occaecat consectetur commodo irure elit. Sit dolore ex mollit reprehenderit sint sunt ullamco consequat consequat dolore est in qui. Ut nostrud sint dolor consequat dolore ex.\r\n"
+  },
+  {
+    "Price": 1476.37,
+    "Category": "phone",
+    "Name": "Lotron",
+    "Description": "Minim reprehenderit labore enim sit proident officia reprehenderit. Eiusmod laborum culpa irure dolor mollit irure laboris cillum. Eiusmod nostrud proident sunt voluptate ea adipisicing do labore ea et quis dolor.\r\n"
+  },
+  {
+    "Price": 1887.41,
+    "Category": "cameras",
+    "Name": "Thredz",
+    "Description": "Est ut irure proident fugiat. Do exercitation incididunt non cupidatat aliquip consequat ullamco ut et consectetur eu irure magna occaecat. Duis anim sint occaecat deserunt est quis mollit magna. Esse anim nisi ad exercitation eu ipsum laborum ullamco laborum magna ex.\r\n"
+  },
+  {
+    "Price": 3535.47,
+    "Category": "tablets",
+    "Name": "Exiand",
+    "Description": "Labore quis exercitation incididunt ullamco adipisicing. Veniam veniam mollit laborum culpa consequat irure. Sint nulla aute minim veniam proident cupidatat proident elit ea dolore deserunt officia. Do nulla consectetur velit aliqua eiusmod eiusmod in nisi cillum ullamco in. Ut ut ad aliquip velit enim et Lorem qui ad ipsum ullamco non. Tempor reprehenderit ad elit sunt consectetur occaecat ad aliqua Lorem non ullamco.\r\n"
+  },
+  {
+    "Price": 2581.6,
+    "Category": "laptops",
+    "Name": "Eargo",
+    "Description": "Aute non commodo magna sint ullamco consectetur deserunt culpa ullamco deserunt mollit. Dolore dolore nulla aute est deserunt consectetur reprehenderit aliquip aute labore quis et sunt. Culpa id culpa cupidatat reprehenderit ut enim commodo minim enim occaecat reprehenderit culpa. Fugiat aliquip tempor ullamco cillum laboris sunt amet Lorem culpa cillum in et dolore labore. Deserunt adipisicing qui elit labore Lorem ea id adipisicing est minim ea ad. Est esse aliqua irure in Lorem commodo non laboris voluptate sint. Deserunt culpa ipsum amet voluptate ipsum consequat nulla sint aliqua officia amet anim et.\r\n"
+  },
+  {
+    "Price": 3308.44,
+    "Category": "tablets",
+    "Name": "Qot",
+    "Description": "Deserunt dolore elit elit exercitation aliqua mollit cillum laboris eu eu consequat eu excepteur id. Lorem non cillum veniam culpa sit qui aliquip enim consequat quis incididunt enim. Laborum et non ipsum pariatur non. Anim id do ea fugiat consectetur aliqua. Cillum id mollit eu eiusmod. Deserunt in Lorem ex occaecat qui anim do aute do. Adipisicing laborum consequat voluptate nisi ut minim sunt nulla cupidatat proident eu sunt nulla.\r\n"
+  },
+  {
+    "Price": 2609.78,
+    "Category": "laptops",
+    "Name": "Daycore",
+    "Description": "Culpa cillum commodo est id anim occaecat sit deserunt fugiat laboris dolore magna ea. Deserunt eiusmod culpa velit enim tempor non elit. Nulla culpa in ullamco Lorem dolore fugiat elit velit veniam fugiat dolore. Esse exercitation cupidatat officia id. Enim proident commodo incididunt incididunt reprehenderit dolore minim culpa in. Irure nisi cupidatat velit irure fugiat dolor non qui fugiat anim pariatur est. Deserunt Lorem ea do dolore voluptate veniam quis.\r\n"
+  },
+  {
+    "Price": 2763.86,
+    "Category": "phone",
+    "Name": "Fitcore",
+    "Description": "Eiusmod velit quis nisi excepteur eu. Exercitation quis exercitation adipisicing tempor aliquip cillum commodo dolore esse incididunt elit eiusmod. Deserunt ea tempor nostrud ullamco magna commodo nulla eiusmod amet velit deserunt cillum. Cupidatat sint eu et officia id aliquip incididunt laborum cillum veniam. Cupidatat adipisicing veniam pariatur tempor laborum. Ad nisi deserunt cupidatat anim. Veniam Lorem tempor mollit amet duis qui irure nostrud sit aute consectetur laborum qui.\r\n"
+  },
+  {
+    "Price": 2726.23,
+    "Category": "computers",
+    "Name": "Translink",
+    "Description": "Et labore aliqua amet cillum proident occaecat dolore mollit in dolor sint nostrud cupidatat ut. Est incididunt est occaecat anim esse veniam. Id culpa occaecat adipisicing occaecat voluptate laboris Lorem commodo veniam.\r\n"
+  },
+  {
+    "Price": 2751.88,
+    "Category": "laptops",
+    "Name": "Kozgene",
+    "Description": "Nostrud id eu eiusmod duis sunt dolor cillum aute ipsum dolor enim cupidatat dolore officia. Incididunt duis amet pariatur incididunt qui irure est. Dolor cupidatat eiusmod esse eu enim nostrud sit cillum duis eiusmod et cillum dolore. Ut labore dolore mollit sunt culpa aute est eiusmod. Deserunt exercitation dolor ullamco esse consequat eu qui minim eu sunt adipisicing aliqua non veniam.\r\n"
+  },
+  {
+    "Price": 3574.43,
+    "Category": "phone",
+    "Name": "Cujo",
+    "Description": "Voluptate do velit in ex minim est eu aliqua proident sunt. Pariatur sint ullamco ea sunt velit veniam incididunt sint. Non culpa ea in laborum mollit dolore cupidatat. Magna aliqua cupidatat culpa quis non. Tempor Lorem aliqua laboris occaecat aute minim nostrud deserunt amet nulla eu excepteur. Dolore eu nisi fugiat occaecat velit pariatur proident amet tempor officia ut irure tempor consequat.\r\n"
+  },
+  {
+    "Price": 1822.01,
+    "Category": "cameras",
+    "Name": "Futurity",
+    "Description": "Aliquip ut id id non deserunt enim. Consectetur exercitation sit quis ad pariatur excepteur amet tempor id aute amet nisi. Deserunt quis cillum ad ex ut Lorem tempor id adipisicing tempor sunt tempor.\r\n"
+  },
+  {
+    "Price": 3539.7,
+    "Category": "phone",
+    "Name": "Gadtron",
+    "Description": "Sit magna in consequat nostrud velit dolore eiusmod occaecat labore consectetur commodo. Mollit anim ut deserunt adipisicing. Culpa commodo enim nisi duis velit elit reprehenderit est cupidatat pariatur consectetur est. Nostrud eu enim aliqua magna duis amet commodo irure culpa dolore ullamco occaecat minim anim.\r\n"
+  },
+  {
+    "Price": 3162.25,
+    "Category": "phone",
+    "Name": "Globoil",
+    "Description": "Commodo nisi aliquip anim aute labore eu laborum Lorem ad aliquip consequat adipisicing. Enim ex non veniam nulla dolor adipisicing consectetur commodo ullamco. Ea esse duis reprehenderit consectetur et. Laboris duis laboris labore anim officia deserunt id reprehenderit amet qui nulla.\r\n"
+  },
+  {
+    "Price": 3966.67,
+    "Category": "tablets",
+    "Name": "Decratex",
+    "Description": "Et fugiat sunt sint proident velit irure quis do anim irure amet duis sit magna. Ex sunt officia cupidatat ad nulla est excepteur. Minim fugiat excepteur deserunt ex commodo cupidatat eu eiusmod irure ea ea veniam veniam. Ea id fugiat nisi qui nostrud esse pariatur. Laboris culpa pariatur laborum qui officia irure fugiat consectetur nostrud est incididunt. Do ullamco labore fugiat ullamco consequat magna cupidatat ea velit aliquip ullamco occaecat duis cupidatat.\r\n"
+  },
+  {
+    "Price": 3569.14,
+    "Category": "computers",
+    "Name": "Confrenzy",
+    "Description": "Irure ullamco proident dolor ad quis non exercitation eu aliqua et sunt adipisicing dolore anim. Dolore consequat pariatur est enim ex esse. Dolor ipsum est ut non sint anim sint ut sit qui. Commodo consectetur ad ad ea non excepteur excepteur.\r\n"
+  },
+  {
+    "Price": 1165.74,
+    "Category": "cameras",
+    "Name": "Envire",
+    "Description": "Fugiat laboris ex sunt reprehenderit voluptate eiusmod mollit Lorem et anim esse id. Sunt ut est in ad. Et dolor id reprehenderit aliqua. Voluptate excepteur labore ex qui dolor.\r\n"
+  },
+  {
+    "Price": 2370.49,
+    "Category": "computers",
+    "Name": "Acium",
+    "Description": "Tempor non ad eiusmod anim culpa laboris officia do est. Aliqua cillum ut fugiat sit cillum labore ea laborum nisi tempor aute. Cupidatat aute mollit non proident incididunt aute pariatur ad aliquip officia culpa occaecat. Anim ex nisi pariatur et qui nostrud aute.\r\n"
+  },
+  {
+    "Price": 1467.44,
+    "Category": "phone",
+    "Name": "Centrexin",
+    "Description": "Esse excepteur deserunt irure quis commodo nulla adipisicing enim laborum cillum nulla consequat. Aute aliquip ea ipsum officia nulla occaecat eiusmod culpa ex. Do nisi ullamco elit nostrud sint proident enim ea eu sint magna anim mollit. Tempor occaecat et velit nisi voluptate aute proident duis. Quis aliqua minim nulla duis ipsum nisi fugiat. Ex ad officia amet aute exercitation eu Lorem pariatur.\r\n"
+  },
+  {
+    "Price": 3715.71,
+    "Category": "cameras",
+    "Name": "Fangold",
+    "Description": "Non consectetur eiusmod nisi id aliquip ad magna magna culpa dolore mollit do aliquip. Ipsum ut deserunt commodo consequat culpa duis sint. Et qui nostrud commodo ea non commodo velit amet.\r\n"
+  },
+  {
+    "Price": 1389.46,
+    "Category": "laptops",
+    "Name": "Pheast",
+    "Description": "Excepteur aliqua incididunt sit cupidatat et deserunt cupidatat mollit consectetur duis. Excepteur aliquip eiusmod minim irure sunt sit velit minim fugiat excepteur velit nisi sit. Pariatur duis in ex sit enim minim incididunt excepteur adipisicing nostrud incididunt sit voluptate. Tempor labore incididunt quis commodo mollit occaecat deserunt incididunt mollit veniam pariatur dolore et incididunt. Eiusmod quis elit aliqua incididunt qui qui dolor nostrud consectetur cupidatat ut eu. Velit nostrud labore ipsum labore velit ex ut est voluptate eiusmod ipsum qui amet. Nisi incididunt sint labore nisi laboris excepteur laboris qui ipsum excepteur eu.\r\n"
+  },
+  {
+    "Price": 1629.83,
+    "Category": "computers",
+    "Name": "Avit",
+    "Description": "Esse consequat est culpa commodo eu minim consequat magna cupidatat enim nostrud. Elit tempor culpa aliqua do quis. Eu eiusmod consequat voluptate velit pariatur laboris excepteur. Anim minim cillum amet incididunt incididunt mollit cupidatat nisi aliqua cillum duis veniam aliqua veniam. Reprehenderit excepteur do culpa nostrud amet Lorem. Dolor nostrud in exercitation est labore sit qui consequat proident aliqua culpa. Esse irure commodo deserunt tempor velit laboris ad ad commodo incididunt labore excepteur.\r\n"
+  },
+  {
+    "Price": 2946.9,
+    "Category": "laptops",
+    "Name": "Techade",
+    "Description": "Do ea sunt mollit magna excepteur ipsum pariatur exercitation eu mollit nisi. Pariatur fugiat culpa aliqua cillum laboris anim. Dolor amet aliquip deserunt occaecat tempor id minim cupidatat minim minim occaecat ex adipisicing.\r\n"
+  },
+  {
+    "Price": 1610.07,
+    "Category": "laptops",
+    "Name": "Zaya",
+    "Description": "Ea ea dolore veniam eiusmod duis reprehenderit sint reprehenderit cillum tempor aliqua fugiat esse laboris. Consectetur consequat fugiat mollit ea tempor. Aute proident ex minim dolor. Voluptate est ex culpa quis labore ad adipisicing excepteur fugiat officia ex. Eu est non consectetur proident sit Lorem consequat officia. Dolor laborum laboris velit aliqua elit nisi pariatur cillum.\r\n"
+  },
+  {
+    "Price": 3488.36,
+    "Category": "computers",
+    "Name": "Turnabout",
+    "Description": "Nostrud consequat dolore consectetur nisi excepteur reprehenderit do sit et occaecat incididunt labore. Non veniam pariatur fugiat laboris labore. Proident laborum amet laborum cupidatat in aute adipisicing veniam consequat ex sit. Dolor cupidatat ea proident sit mollit eiusmod ullamco anim ad occaecat. Aute fugiat sunt proident magna sunt sit. Aute ut nisi aute ea deserunt.\r\n"
+  },
+  {
+    "Price": 2229.62,
+    "Category": "phone",
+    "Name": "Utara",
+    "Description": "Aliqua ea aliqua eu consectetur irure commodo duis enim aliquip sint dolore in. Velit voluptate sunt amet nisi aliqua deserunt excepteur velit proident et aliquip quis nulla sunt. In amet et fugiat laboris amet deserunt non ea anim. Duis minim officia ex elit veniam excepteur. Ad ullamco consequat adipisicing veniam in adipisicing.\r\n"
+  },
+  {
+    "Price": 1475.61,
+    "Category": "cameras",
+    "Name": "Isologia",
+    "Description": "Aliqua nisi in do id ad. Consectetur veniam esse laboris anim velit pariatur fugiat nisi aute cillum esse dolor. Cillum minim voluptate nostrud in mollit proident cillum consequat excepteur nostrud irure. Consectetur ad consectetur officia nulla ipsum. In commodo Lorem ad eiusmod non nostrud proident ad.\r\n"
+  },
+  {
+    "Price": 2823.91,
+    "Category": "cameras",
+    "Name": "Panzent",
+    "Description": "Veniam tempor commodo anim fugiat cillum Lorem ullamco ex exercitation enim quis ad elit. Consequat quis voluptate nulla eu irure aliquip adipisicing exercitation ipsum nisi. Nostrud pariatur exercitation officia in minim aliqua. Velit cillum incididunt ipsum veniam dolore Lorem ea eu occaecat irure magna aliqua voluptate excepteur. Ex id non et excepteur elit cupidatat magna tempor. Sint deserunt do elit esse eiusmod aliqua pariatur duis sint veniam sit.\r\n"
+  },
+  {
+    "Price": 3193.09,
+    "Category": "computers",
+    "Name": "Tropolis",
+    "Description": "Id duis amet officia enim est nisi id culpa elit magna commodo. Consequat nisi ad elit magna nulla consectetur duis sunt sunt nostrud mollit dolore. Id id et aliqua cillum cupidatat excepteur ut et non. Enim eiusmod aliquip ipsum nostrud ad dolore eu fugiat. Aute id ipsum magna laborum eu mollit culpa labore incididunt sint sit esse quis sunt. Cillum pariatur veniam mollit occaecat excepteur elit enim aute.\r\n"
+  },
+  {
+    "Price": 3984.47,
+    "Category": "laptops",
+    "Name": "Interloo",
+    "Description": "Elit do exercitation ea mollit magna velit pariatur. Dolore irure cupidatat cillum magna tempor labore dolore sit sint magna proident proident. Tempor id exercitation esse laborum in commodo reprehenderit nulla voluptate irure consequat do reprehenderit. Excepteur pariatur irure consequat eiusmod eu cillum aliquip esse sunt in consectetur. Aliqua sint ex elit in ad pariatur est. Officia excepteur ad duis est amet anim in laboris. Occaecat qui dolor anim excepteur id reprehenderit.\r\n"
+  },
+  {
+    "Price": 2333.72,
+    "Category": "laptops",
+    "Name": "Stelaecor",
+    "Description": "Irure officia laboris commodo labore ex. Labore adipisicing eu duis aliquip irure est ut qui Lorem. Qui cillum elit nisi nulla cupidatat in voluptate voluptate ut commodo velit veniam commodo. Non Lorem nostrud cillum officia fugiat exercitation nisi amet laboris reprehenderit voluptate aute commodo. Sit non nostrud incididunt proident ipsum eu dolore velit.\r\n"
+  },
+  {
+    "Price": 3735.29,
+    "Category": "cameras",
+    "Name": "Providco",
+    "Description": "Duis ad elit exercitation fugiat irure. Ut aliquip elit dolor elit. Proident eiusmod enim dolor consequat ex qui veniam adipisicing in ad.\r\n"
+  },
+  {
+    "Price": 1627.48,
+    "Category": "phone",
+    "Name": "Automon",
+    "Description": "Esse tempor proident eiusmod et aliqua tempor aliquip veniam aute commodo ipsum deserunt ut. Cillum incididunt nisi occaecat nisi incididunt. Voluptate laboris exercitation ad aliquip ipsum dolor. Amet velit laboris esse pariatur reprehenderit mollit adipisicing veniam eu ex non. Ea amet do ipsum sunt esse pariatur laboris amet proident. Adipisicing quis velit cupidatat ex ullamco eu voluptate anim nisi. Nisi ipsum deserunt quis cillum culpa nulla laboris nisi deserunt ea elit.\r\n"
+  },
+  {
+    "Price": 2738.11,
+    "Category": "laptops",
+    "Name": "Futuris",
+    "Description": "Fugiat eu pariatur elit officia. Amet excepteur adipisicing occaecat aliquip nulla. Lorem tempor incididunt anim adipisicing do proident nisi irure laborum id aliquip ut amet nisi.\r\n"
+  },
+  {
+    "Price": 1277,
+    "Category": "laptops",
+    "Name": "Techmania",
+    "Description": "In minim adipisicing anim do. Duis culpa sit do do anim minim Lorem. Aute sint ad ea cupidatat minim. Consectetur consectetur reprehenderit laborum proident labore. Magna duis velit incididunt nulla nostrud reprehenderit non nisi laboris consequat.\r\n"
+  },
+  {
+    "Price": 3245.06,
+    "Category": "phone",
+    "Name": "Ebidco",
+    "Description": "Cupidatat qui officia cillum proident. Est officia non elit amet duis veniam nulla consectetur minim commodo laborum id officia fugiat. Elit sunt fugiat duis dolor enim reprehenderit sint sit laborum cillum culpa sint ea nisi.\r\n"
+  },
+  {
+    "Price": 3500.63,
+    "Category": "cameras",
+    "Name": "Recognia",
+    "Description": "Ad irure sunt ex id aute irure est pariatur voluptate sit anim. Aliquip sint consequat ullamco pariatur duis culpa id occaecat eiusmod nisi magna et irure. Exercitation consequat occaecat ad ut in elit ex velit.\r\n"
+  }
+]
