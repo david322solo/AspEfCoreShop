@@ -27,7 +27,7 @@ namespace WebApp.Controllers
         {
             LoadSampleData();
             List<Product> products = new List<Product>();
-            for (int i = 0; i<_db.Products
+            for (int i = 0; i< _db.Products
                     .Where(p => category == null || p.Category == category)
                     .OrderBy(p => p.Id)
                     .Skip((page - 1) * PageSize)
@@ -62,12 +62,13 @@ namespace WebApp.Controllers
                     CurrentPage = page,
                     ItemsPerPage = PageSize,
                     TotalItems = category == null?
-                    _db.Products.Count():_db.Products.Where(p=>p.Category==category).Count()
+                    _db.Products.Count(): _db.Products.Where(p=>p.Category==category).Count()
                 },
                 CurrentCategory = category
             };
             return View(model);
         }
+
         private void LoadSampleData()
         {
             if (_db.Products.Count() == 0)
