@@ -4,14 +4,16 @@ using EFDataLibrary.DataAccess;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace EFDataLibrary.Migrations
 {
     [DbContext(typeof(UndefinedContext))]
-    partial class UndefinedContextModelSnapshot : ModelSnapshot
+    [Migration("20200208202724_AddPhotoEnntity")]
+    partial class AddPhotoEnntity
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -34,7 +36,7 @@ namespace EFDataLibrary.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Photos");
+                    b.ToTable("Photo");
                 });
 
             modelBuilder.Entity("EFDataLibrary.Models.Product", b =>
@@ -59,42 +61,24 @@ namespace EFDataLibrary.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("PhotoId")
+                        .HasColumnType("int");
+
                     b.Property<decimal>("Price")
                         .HasColumnType("decimal(18,2)");
 
                     b.HasKey("Id");
 
+                    b.HasIndex("PhotoId");
+
                     b.ToTable("Products");
                 });
 
-            modelBuilder.Entity("EFDataLibrary.Models.ProductPhoto", b =>
-                {
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("PhotoId")
-                        .HasColumnType("int");
-
-                    b.HasKey("ProductId", "PhotoId");
-
-                    b.HasIndex("PhotoId");
-
-                    b.ToTable("ProductPhotos");
-                });
-
-            modelBuilder.Entity("EFDataLibrary.Models.ProductPhoto", b =>
+            modelBuilder.Entity("EFDataLibrary.Models.Product", b =>
                 {
                     b.HasOne("EFDataLibrary.Models.Photo", "Photo")
-                        .WithMany("ProductPhotos")
-                        .HasForeignKey("PhotoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("EFDataLibrary.Models.Product", "Product")
-                        .WithMany("ProductPhotos")
-                        .HasForeignKey("ProductId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .WithMany()
+                        .HasForeignKey("PhotoId");
                 });
 #pragma warning restore 612, 618
         }

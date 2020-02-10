@@ -13,6 +13,11 @@ namespace EFDataLibrary.Models
         public string Category { get; set; }
         public string Brand { get; set; }
         public string Color { get; set; }
+        public List<ProductPhoto> ProductPhotos { get; set; }
+        public Product()
+        {
+            ProductPhotos = new List<ProductPhoto>();
+        }
 
     }
 }
