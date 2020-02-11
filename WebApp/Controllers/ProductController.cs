@@ -16,17 +16,18 @@ namespace WebApp.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private UndefinedContext _db;
-        private int PageSize = 12;
+        private int PageSize = 6;
         public ProductController(ILogger<HomeController> logger,UndefinedContext db)
         {
             _logger = logger;
             _db = db;
         }
         List<List<Product>> Products = new List<List<Product>>();
-        public IActionResult List(string category,int page = 1)
+        public IActionResult List(string category,int page = 1, int pageSize = 6)
         {
+            PageSize = pageSize;
             LoadSampleData();
-            ImportPhoto();
+            //ImportPhoto();
             List<Product> products = new List<Product>();
             for (int i = 0; i< _db.Products
                     .Where(p => category == null || p.Category == category)
@@ -82,7 +83,7 @@ namespace WebApp.Controllers
         }
         public void ImportPhoto()
         {
-            string filename = @"wwwroot\images\si1.jpg";
+            string filename = @"wwwroot\img\category\s-p1.jpg";
             byte[] image = null;
             using (var binaryReader = new BinaryReader(new FileStream(filename, FileMode.Open)))
             {

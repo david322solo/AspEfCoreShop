@@ -1,4 +1,5 @@
-﻿using EFDataLibrary.Interfaces;
+﻿using EFDataLibrary.DataAccess;
+using EFDataLibrary.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
 using System;
@@ -11,17 +12,23 @@ namespace EFDataLibrary.Models
     {
         private List<CartLine> cartLines = new List<CartLine>();
         public IEnumerable<CartLine> Lines { get { return cartLines; } }
-        private string CartId { get; set; }
-        public static  Cart GetCart(IServiceProvider services)
+        public string CartId { get; set; }
+        private UndefinedContext _db;
+        public Cart(UndefinedContext db)
+        {
+            _db = db;
+        }
+        public static Cart GetCart(IServiceProvider services)
         {
             ISession session = services.GetRequiredService<IHttpContextAccessor>()?.HttpContext.Session;
             string cartId = session.GetString("CartId") ?? Guid.NewGuid().ToString();
+            var context = services.GetService<UndefinedContext>();
             session.SetString("CartId", cartId);
-            Console.WriteLine("Hello world");
-            return new Cart() { CartId = cartId };
+            return new Cart(context) { CartId = cartId };
         }
         public void AddLine(Product product, int quantity)
         {
+            Console.WriteLine(product.Name);
             CartLine line = cartLines
              .Where(p => p.Product.Id == product.Id)
              .FirstOrDefault();
@@ -43,7 +50,6 @@ namespace EFDataLibrary.Models
         {
             cartLines.Clear();
         }
-
         public decimal ComputeTotalValue()
         {
             return cartLines.Sum(e => e.Product.Price * e.Quantity);

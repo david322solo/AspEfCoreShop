@@ -1,39 +1,48 @@
 ﻿@model EFDataLibrary.Models.Product
+<!-- single product -->
+<div class="col-lg-4 col-md-6">
+    <div class="single-product">
+        <img class="img-fluid" src="~/img/product/p1.jpg" alt="">
+        <div class="product-details">
+            <h6>
+                @Model.Name
 
-<div class="col-md-4 product-men">
-    <div class="men-pro-item simpleCart_shelfItem pb-4">
-        <div class="men-thumb-item text-center">
-            <img src="~/images/m3.jpg" alt="">
-            <div class="men-cart-pro">
-                <div class="inner-men-cart-pro">
-                    <a asp-controller="Cart" asp-action="Details" asp-route-id="@Model.Id" asp-route-name="@Model.Name" asp-route-returnUrl="@Context.Request.Path" class="link-product-add-cart">Quick View</a>
+            </h6>
+            <h6>
+                @Model.Category
+
+            </h6>
+            <div class="price">
+                <h6>$@Model.Price</h6>
+                <h6 class="l-through">$210.00</h6>
+            </div>
+            <div class="prd-bottom">
+
+                <div style="cursor:pointer" onclick="func(@Model.Id)" class="social-info">
+                    <span class="ti-bag"></span>
+                    <p class="hover-text">add to bag</p>
                 </div>
+                <a href="" class="social-info">
+                    <span class="lnr lnr-heart"></span>
+                    <p class="hover-text">Wishlist</p>
+                </a>
+                <a href="" class="social-info">
+                    <span class="lnr lnr-sync"></span>
+                    <p class="hover-text">compare</p>
+                </a>
+                <a asp-controller="Cart" asp-action="Details" asp-route-id="@Model.Id" asp-route-name="@Model.Name" asp-route-returnUrl="@Context.Request.Path" class="social-info">
+                    <span class="lnr lnr-move"></span>
+                    <p class="hover-text">view more</p>
+                </a>
             </div>
-        </div>
-        <div class="item-info-product text-center border-top mt-4">
-            <h4 class="pt-1">
-                <a href="single.html">@Model.Name</a>
-            </h4>
-            <div class="info-product-price my-2">
-                <span class="item_price">@Model.Price</span>
-            </div>
-            <div class="snipcart-details top_brand_home_details item_add single-item hvr-outline-out">
-                <form action="#" method="post">
-                    <fieldset>
-                        <input type="hidden" name="cmd" value="_cart" />
-                        <input type="hidden" name="add" value="1" />
-                        <input type="hidden" name="business" value=" " />
-                        <input type="hidden" name="item_name" value="Sony 80 cm (32 inches)" />
-                        <input type="hidden" name="amount" value="320.00" />
-                        <input type="hidden" name="discount_amount" value="1.00" />
-                        <input type="hidden" name="currency_code" value="USD" />
-                        <input type="hidden" name="return" value=" " />
-                        <input type="hidden" name="cancel_return" value=" " />
-                        <input type="submit" name="submit" value="Add to cart" class="button btn" />
-                    </fieldset>
-                </form>
-            </div>
-
         </div>
     </div>
 </div>
+<script>
+    function func(q) {
+        fetch('http://localhost:5000/add/3', {method:'GET'})
+            .then(async response => {
+            });
+    }
+</script>
+            

@@ -33,8 +33,12 @@ namespace WebApp
                 option.EnableEndpointRouting = false;
 
             });
-            services.AddDistributedMemoryCache();
-            services.AddSession();
+            services.AddMemoryCache();
+            services.AddSession(options=>
+            {
+                options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
+
+            });
             services.AddDbContextPool<UndefinedContext>(options =>
             {
                 options.UseSqlServer(Configuration.GetConnectionString("Default"));
