@@ -24,5 +24,6 @@ namespace EFDataLibrary.DataAccess
         public DbSet<Product> Products { get; set; }
         public DbSet<Photo> Photos { get; set; }
         public DbSet<ProductPhoto> ProductPhotos {get;set;}
+        public DbSet<CartLine> CartLines { get; set; }
     }
 }

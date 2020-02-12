@@ -21,9 +21,11 @@ namespace WebApp.Controllers
             _db = db;
             _cart = cart;
         }
+        [Route("cart/index")]
         public IActionResult Index()
         {
-            return View();
+            var q = _cart.Lines;
+            return View(_cart.Lines);
         }
         [Route("product/{name?}")]
         public IActionResult Details(int id,string name,string returnUrl)
@@ -40,11 +42,7 @@ namespace WebApp.Controllers
             Product product = _db.Products.FirstOrDefault(p => p.Id == id);
             _cart.AddLine(product, 1);
             Console.WriteLine(_cart.ComputeTotalValue());
-            foreach(var elem in _cart.Lines)
-            {
-                Console.WriteLine(elem.Product.Name);
-                Console.WriteLine(elem.Quantity);
-            }
+            
         }
     }
 }

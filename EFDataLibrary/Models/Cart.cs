@@ -1,6 +1,7 @@
 ﻿using EFDataLibrary.DataAccess;
 using EFDataLibrary.Interfaces;
 using Microsoft.AspNetCore.Http;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
@@ -10,8 +11,7 @@ namespace EFDataLibrary.Models
 {
     public class Cart : ICart<CartLine>
     {
-        private List<CartLine> cartLines = new List<CartLine>();
-        public IEnumerable<CartLine> Lines { get { return cartLines; } }
+        public IEnumerable<CartLine> Lines { get { return _db.CartLines.Where(cart => cart.CartId == CartId).Include(p=>p.Product); } }
         public string CartId { get; set; }
         private UndefinedContext _db;
         public Cart(UndefinedContext db)
@@ -28,14 +28,14 @@ namespace EFDataLibrary.Models
         }
         public void AddLine(Product product, int quantity)
         {
-            Console.WriteLine(product.Name);
-            CartLine line = cartLines
-             .Where(p => p.Product.Id == product.Id)
+            CartLine line = _db.CartLines
+             .Where(p => p.Product.Id == product.Id && p.CartId == CartId)
              .FirstOrDefault();
             if (line == null)
             {
-                cartLines.Add(new CartLine
+                _db.CartLines.Add(new CartLine
                 {
+                    CartId = CartId,
                     Product = product,
                     Quantity = quantity
                 });
@@ -44,25 +44,32 @@ namespace EFDataLibrary.Models
             {
                 line.Quantity += quantity;
             }
+            _db.SaveChanges();
         }
 
         public void Clear()
         {
-            cartLines.Clear();
+            var cartList = _db.CartLines.Where(cart => cart.CartId == CartId);
+            _db.CartLines.RemoveRange(cartList);
+            _db.SaveChangesAsync();
         }
         public decimal ComputeTotalValue()
         {
-            return cartLines.Sum(e => e.Product.Price * e.Quantity);
+            return _db.CartLines.Where(c => c.CartId == CartId).Select(c => c.Product.Price * c.Quantity).Sum();
         }
 
         public void RemoveLine(Product product)
         {
-            cartLines.RemoveAll(l => l.Product.Id == product.Id);
+            CartLine cartLine = _db.CartLines.FirstOrDefault(l => l.Product.Id == product.Id && l.CartId == CartId);
+            _db.CartLines.Remove(cartLine);
+            _db.SaveChanges();
         }
     }
     public class CartLine
     {
+        public int Id { get; set; }
         public Product Product { get; set; }
         public int Quantity { get; set; }
+        public string CartId { get; set; }
     }
 }

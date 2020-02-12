@@ -40,7 +40,8 @@
 </div>
 <script>
     function func(q) {
-        fetch('http://localhost:5000/add/3', {method:'GET'})
+        console.log(q)
+        fetch(`http://localhost:5000/add/${q}`, {method:'GET'})
             .then(async response => {
             });
     }

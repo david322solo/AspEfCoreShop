@@ -34,11 +34,7 @@ namespace WebApp
 
             });
             services.AddMemoryCache();
-            services.AddSession(options=>
-            {
-                options.Cookie.SecurePolicy = CookieSecurePolicy.Always;
-
-            });
+            services.AddSession();
             services.AddDbContextPool<UndefinedContext>(options =>
             {
                 options.UseSqlServer(Configuration.GetConnectionString("Default"));
