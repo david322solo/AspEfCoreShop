@@ -1,9 +1,5 @@
 ﻿@model IEnumerable<EFDataLibrary.Models.CartLine>
 
-@foreach (var cartLine in Model)
-{
-
-}
 
 <!--================Cart Area =================-->
 <section class="cart_area">
@@ -20,6 +16,8 @@
                         </tr>
                     </thead>
                     <tbody>
+                        @if (Model.Count()!=0)
+                        {
                         @foreach (var cartLine in Model)
                         {
                             <tr>
@@ -29,7 +27,7 @@
                                         <img src="img/cart.jpg" alt="">
                                     </div>
                                     <div class="media-body">
-                                        <p>Minimalistic shop for multipurpose use @cartLine.Quantity</p>
+                                        <p>@cartLine.Product.Description</p>
                                     </div>
                                 </div>
                             </td>
@@ -38,7 +36,8 @@
                             </td>
                             <td>
                                 <div class="product_count">
-                                    <input type="text" name="qty" id="sst" maxlength="12" value="1" title="Quantity:"
+                                    <h5>@cartLine.Quantity</h5>
+                                    @*<input type="text" name="qty" id="sst" maxlength="12" value="1" title="Quantity:"
                                            class="input-text qty">
                                     <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst )) result.value++;return false;"
                                             class="increase items-count" type="button">
@@ -47,13 +46,19 @@
                                     <button onclick="var result = document.getElementById('sst'); var sst = result.value; if( !isNaN( sst ) &amp;&amp; sst > 0 ) result.value--;return false;"
                                             class="reduced items-count" type="button">
                                         <i class="lnr lnr-chevron-down"></i>
-                                    </button>
+                                    </button>*@
                                 </div>
                             </td>
                             <td>
-                                <h5>$@(cartLine.Product.Price*cartLine.Quantity)</h5>
+                                <h5>$@(cartLine.Product.Price * cartLine.Quantity)</h5>
                             </td>
-                        </tr>
+                            </tr>
+                            }
+                        }else 
+                        {
+                              <tr>
+                                  <td>Cart is free chose product</td>
+                              </tr>
                         }
                         <tr class="bottom_button">
                             <td>

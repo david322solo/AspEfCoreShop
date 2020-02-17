@@ -6,6 +6,7 @@ using EFDataLibrary.DataAccess;
 using EFDataLibrary.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
 namespace WebApp.Controllers
@@ -24,7 +25,6 @@ namespace WebApp.Controllers
         [Route("cart/index")]
         public IActionResult Index()
         {
-            var q = _cart.Lines;
             return View(_cart.Lines);
         }
         [Route("product/{name?}")]

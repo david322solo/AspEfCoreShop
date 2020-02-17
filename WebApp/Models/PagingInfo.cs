@@ -11,5 +11,9 @@ namespace WebApp.Models
         {
             get { return (int)Math.Ceiling((decimal)TotalItems / ItemsPerPage); }
         }
+        public bool ShowPrevious => CurrentPage > 1;
+        public bool ShowNext => CurrentPage < TotalPages;
+        public bool ShowFirst => CurrentPage != 1;
+        public bool ShowLast => CurrentPage != TotalPages;
     }
 }
