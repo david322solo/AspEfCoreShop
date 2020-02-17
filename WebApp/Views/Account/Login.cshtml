@@ -1,0 +1,39 @@
+﻿@model WebApp.Models.LoginViewModel
+<!--================Login Box Area =================-->
+<section class="login_box_area section_gap">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="login_box_img">
+                    <img class="img-fluid" src="~/img/login.jpg" alt="">
+                    <div class="hover">
+                        <h4>New to our website?</h4>
+                        <p>There are advances being made in science and technology everyday, and a good example of this is the</p>
+                        <a class="primary-btn" asp-action="Register" asp-controller="Account">Create an Account</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="login_form_inner">
+                    <h3>Log in to enter</h3>
+                    <form class="row login_form" asp-action="Login" asp-controller="Account" method="post" id="contactForm" asp-anti-forgery="true">
+                        <div asp-validation-summary="All" class="text-danger"></div>
+                        <div class="col-md-12 form-group">
+                            <input type="text" asp-for="Username" class="form-control"  placeholder="Username" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Username'">
+                            <span asp-validation-for="Username" class="text-danger" />
+                        </div>
+                        <div class="col-md-12 form-group">
+                            <input type="text" asp-for="Password" class="form-control"  placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'">
+                            <span asp-validation-for="Password" class="text-danger" />
+                        </div>
+                        <div class="col-md-12 form-group">
+                            <button type="submit" value="submit" class="primary-btn">Log In</button>
+                            @*<a href="#">Forgot Password?</a>*@
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--================End Login Box Area =================-->
