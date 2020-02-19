@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using EFDataLibrary.DataAccess;
 using EFDataLibrary.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -31,18 +32,25 @@ namespace WebApp.Controllers
         public IActionResult Details(int id,string name,string returnUrl)
         {
             Console.WriteLine(_cart.CartId);
+            ViewBag.id = id;
             return View(_db.Photos.FirstOrDefault(ph => ph.Id == 39));
         }
         [HttpGet]
-        [Route("add/{id}")]
-        public void AddToCart(int id)
+        [Route("add/{id?}/{quantity?}")]
+        public string AddToCart(int id,int quantity)
         {
-            Console.WriteLine(id);
-            Console.WriteLine(_cart.CartId);
-            Product product = _db.Products.FirstOrDefault(p => p.Id == id);
-            _cart.AddLine(product, 1);
-            Console.WriteLine(_cart.ComputeTotalValue());
-            
+            foreach (var res in Request.Query)
+            {
+                Console.WriteLine(res.Value);
+            }
+            Console.WriteLine($"{id}, {quantity}");
+            if (quantity > 0 && quantity < 10)
+            {
+                Product product = _db.Products.FirstOrDefault(p => p.Id == id);
+                _cart.AddLine(product, quantity);
+                return "OK";
+            }
+            else return "quantity is incorrect";
         }
     }
 }

@@ -18,7 +18,7 @@
             </div>
             <div class="prd-bottom">
 
-                <div style="cursor:pointer" onclick="func(@Model.Id)" class="social-info">
+                <div style="cursor:pointer" onclick="func(@Model.Id,1)" class="social-info">
                     <span class="ti-bag"></span>
                     <p class="hover-text">add to bag</p>
                 </div>
@@ -43,6 +43,7 @@
         console.log(q)
         fetch(`http://localhost:5000/add/${q}`, {method:'GET'})
             .then(async response => {
+                console.log(response.text)
             });
     }
 </script>
