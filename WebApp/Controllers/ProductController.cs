@@ -10,6 +10,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using WebApp.Models;
 using System.IO;
+using Microsoft.EntityFrameworkCore;
+
 namespace WebApp.Controllers
 {
     public class ProductController : Controller
@@ -23,7 +25,7 @@ namespace WebApp.Controllers
             _db = db;
         }
         List<List<Product>> Products = new List<List<Product>>();
-        public IActionResult List(string category,int page = 1, int pageSize = 6)
+        public async Task<IActionResult> List(string category,int page = 1, int pageSize = 6)
         {
             PageSize = pageSize;
             LoadSampleData();
@@ -63,8 +65,8 @@ namespace WebApp.Controllers
                 {
                     CurrentPage = page,
                     ItemsPerPage = PageSize,
-                    TotalItems = category == null?
-                    _db.Products.Count(): _db.Products.Where(p=>p.Category==category).Count()
+                    TotalItems = category == null ?
+                    _db.Products.Count() : await _db.Products.Where(p => p.Category == category).CountAsync()
                 },
                 CurrentCategory = category
             };

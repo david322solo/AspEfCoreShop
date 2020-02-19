@@ -136,9 +136,15 @@
     <script src="~/js/gmaps.min.js"></script>
     <script src="~/js/main.js"></script>
     <script>
-        //setInterval(() => {
-        //var selected = $("#sort").val();
-        //}, 4000)
+        $("#sort").change(function () {
+            var selected = $("#sort").val();
+            console.log(selected);
+            console.log(`http://localhost:5000/?pageSize=${selected}`);
+             fetch(`http://localhost:5000/?pageSize=${selected}`, {method:'GET'})
+            .then(async response => {
+                await console.log(response.body)
+            });
+        })
     </script>
 </body>
 </html>
